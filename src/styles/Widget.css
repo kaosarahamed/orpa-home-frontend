@@ -1,0 +1,21 @@
+.accordianTab{
+    background-color: #F3FAFF;
+    padding: 20px;
+}
+.accordianTab h5{
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.accordion-header{
+    background-color: #F3FAFF !important;
+}
+.accordion-button{
+    background-color: #F3FAFF !important;
+    padding: 15px 0px !important;
+}
+.accordion-body{
+    background-color: #F3FAFF !important;
+    padding: 15px 0px !important;
+}

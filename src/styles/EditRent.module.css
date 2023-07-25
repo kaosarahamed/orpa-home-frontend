@@ -1,0 +1,34 @@
+.rentCont {
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+  }
+  .rentInfo {
+    padding: 0px !important;
+  }
+  .CostInfo {
+    padding: 0px !important;
+  }
+  .rentCont form{
+    display: flex;
+    flex-direction: column;
+  }
+  .form h2{
+    padding: 0px;
+    font-size: 18px;
+  }
+  .rentCont h4{
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #0000007c;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0px 20px;
+  }

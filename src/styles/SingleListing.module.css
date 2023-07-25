@@ -1,0 +1,168 @@
+.singleListing{
+    background-color: #f9f9fb;
+    width: 100%;
+    height: 100%;
+}
+.singleContainer{
+    width: 1000px;
+    height: 100%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.pageHeader{
+    position: relative;
+}
+.pageHeader img{
+    width: 100%;
+    height: auto;
+}
+.pageHeader span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    background-color: #00000000;
+    background-image: linear-gradient(#00000000, #0000007a);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+.pageHeader span h2{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    z-index: 1;
+}
+.pageHeader span h3{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+    z-index: 1;
+}
+.leftBar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftBar span{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #0000001f;
+    padding-bottom: 10px;
+}
+.leftBar{
+    padding: 20px;
+    box-sizing: border-box;
+}
+.leftBar span:last-child{
+    border: none;
+}
+.leftBar h2{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+.leftBar h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.leftBar p{
+    font-weight: 600;
+}
+.pageBody{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #0000001f;
+}
+.rightBar{
+    background-color: #fff;
+    padding: 30px;
+    box-sizing: border-box;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    height: 300px;
+}
+.rightBar h2{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+}
+.rightBar h3{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+}
+.rightBar h4{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    text-transform: capitalize;
+}
+.rightBar button{
+    background-color: #3170fb;
+    color: #fff;
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.rightBar button:hover{
+    background-color: #2260e7;
+    color: #fff;
+}
+
+/* Media Query */
+@media screen and (max-width: 1010px){
+    .singleContainer{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 768px){
+    .pageBody{
+        grid-template-columns: 1fr;   
+    }
+    .pageHeader span{
+        gap: 5px;
+    }
+    .pageHeader span h2{
+        font-size: 16px;
+    }
+    .pageHeader span h3{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,273 @@
+.rentSection {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+  }
+  .rentContainer form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .rentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rentContainer {
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 5px;
+  }
+  .rentInfo {
+    padding: 20px;
+  }
+  .rentHeader h4 {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #3170fb;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .rentHeader svg {
+    width: 30px;
+    height: 30px;
+    color: #3170fb;
+    cursor: pointer;
+  }
+  .rentContainer h3 {
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #0000007c;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .rentSection h2 {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+  .rentInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .rentInfo label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+  }
+  .rentInfo input {
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #0000003f;
+    color: #000;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .rentContainer p {
+    font-size: 13px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    line-height: 25px;
+  }
+  .button {
+    background-color: #3170fb;
+    color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 0px auto;
+  }
+  .button:hover {
+    background-color: #2260e7;
+    color: #fff;
+  }
+  .rentSection.active {
+    display: block;
+  }
+  .rentSection.inactive {
+    display: none;
+  }
+  .conActive{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+  }
+  .conDeactive{
+    display: none;
+  }
+  .conActive label{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+  }
+  .conActive input{
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #0000003f;
+    color: #000;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .buttonActive{
+    background-color: #3170fb !important;
+    color: #fff !important;
+  }
+  /* media query */
+  @media screen and (max-width: 510px) {
+    .requiredContainer {
+      width: 95%;
+      padding: 30px;
+    }
+    .reqHeader {
+      width: 100%;
+    }
+  }
+
+  /* cost info */
+  .CostInfo {
+    padding: 30px;
+  }
+  .CostInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .CostInfo label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+  }
+  .CostInfo input {
+    font-size: 15px;
+    background-color: #fff;
+    border: 1px solid #0000003f;
+    color: #000;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  .checking {
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+  .checking h3 {
+    border: 1px solid #0000003f;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    background-color: transparent;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .addButton {
+    background-color: transparent;
+    color: #3170fb;
+    border-radius: 5px;
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: 1px solid #3170fb;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 0;
+  }
+  .singleItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    background-color: #f1f1f4;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .singleItem h2 {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #3170fb;
+    cursor: pointer;
+  }
+  .manualButton{
+    font-size: 16px;
+    text-align: center;
+    color: #3170fb;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+  }
+  .CostInfo ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .CostInfo ul li {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    line-height: 25px;
+  }
+  .heading{
+    font-size: 25px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #000;
+  padding-bottom: 10px;
+  }
+  .CostInfo h6{
+    text-align: center;
+  }
+  /* cost info */
+
+  /* deposit info */
+
+  /* deposit info */

@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f9f9fb !important;
+  box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 400px;
+    height: auto;
+    background-color: #ecf0f3;
+    padding: 50px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 15px #cbced1,
+    -10px -10px 15px white;
+
+}
+.container h1{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0px;
+    color: #555;
+    font-family: "Poppins", sans-serif;
+    
+}
+.container .logo{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 600;
+    color: #3170fb;
+    border-radius: 50px;
+    background-color: #ecf0f3;
+    box-shadow: 6px 6px 10px #cbced1,
+    -6px -6px 10px white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Lobster', cursive;
+}
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+.container svg{
+    color: #555;
+}
+.container form span{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #ecf0f3;
+    border-radius: 10px;
+    border: 1px solid #0000002c;
+}
+
+.container input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    color: #555;
+    font-weight: 300;
+    background: transparent; 
+}
+.container input:focus{
+    outline: none;
+    background: transparent;
+}
+.container button{
+    background-color: #3170fb;
+    font-size: 16px;
+    color: #fff;
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2S linear;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 3px 3px 8px #cbced1,
+    -3px -3px 8px white;
+}
+.container button:hover{
+    background-color: #141414;
+    
+}
+.formFooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.formFooter span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+    padding-top: 5px;
+}
+.formFooter span h2{
+    font-size: 15px;
+    color: #141414;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+.formFooter a{
+    font-size: 15px;
+    color: #141414;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 0px;
+    text-align: center;
+}
+.formFooter a:hover{
+    color: #3170fb;
+}
+/* notification css */
+.notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #3170fb;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .notification.active {
+    display: none;
+  }
+  
+  .notification h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+  }
+  .notification svg {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+  }
+/* notification css */
+/* pagination css */
+.pagination{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.pagination button{
+    background-color: #3170fb;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.pagination button:hover{
+    background-color: #141414;
+}
+.pagination .active{
+    background-color: #141414;
+}
+
+
+
+
+
+
+
+/* pagination css */
+/* media query */
+@media screen and (max-width: 1000px){
+    /* .container{
+        width: 95%;
+        padding: 50px;
+    } */
+    /* .container h2{
+        font-size: 30px;
+    } */
+    .container button{
+        font-size: 16px;
+        padding: 15px 30px;
+    }
+    .formFooter{
+        gap: 10px;
+    }
+    .formFooter a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+        padding: 30px;
+        width: 95%;
+        margin: 0 auto;
+    }
+}

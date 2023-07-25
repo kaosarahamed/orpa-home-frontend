@@ -1,0 +1,42 @@
+.paymentSucess{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.paymentSucess h2{
+    font-size: 50px;
+    font-weight: 500;
+    color: #3170fb;
+    text-transform: uppercase;
+}
+.paymentSucess svg{
+    font-size: 80px;
+    color: #fff;
+    background-color: #3170fb;
+    padding: 25px;
+    border-radius: 50px;
+}
+.paymentSucess a{
+    background-color: #3170fb;
+    color: #fff;
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px 0px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 0px auto;
+    text-decoration: none;
+}
+.paymentSucess a:hover{
+    background-color: #2260e7;
+    color: #fff;
+}
